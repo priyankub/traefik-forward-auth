@@ -50,3 +50,6 @@ replace (
 	github.com/mailgun/multibuf => github.com/containous/multibuf v0.0.0-20190809014333-8b6c9a7e6bba
 	github.com/rancher/go-rancher-metadata => github.com/containous/go-rancher-metadata v0.0.0-20190402144056-c6a65f8b7a28
 )
+
+// Add this line to force the compatible version of Traefik
+replace github.com/traefik/traefik/v2 => github.com/traefik/traefik/v2 v2.10.7
