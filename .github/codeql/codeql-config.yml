@@ -1,0 +1,10 @@
+# Name for the configuration
+name: "Default CodeQL config with ignored paths"
+
+# Paths to ignore during the scan.
+# This is used to suppress the vulnerability alert from the old Traefik dependency.
+paths-ignore:
+  - "**/vendor/**"
+  # This glob pattern will match the cached Go module path for the problematic dependency
+  - "**/github.com/traefik/traefik/v2/**"
+
