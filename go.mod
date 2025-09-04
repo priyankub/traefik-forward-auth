@@ -1,10 +1,9 @@
-module github.com/thomseddon/traefik-forward-auth
+module github.com/priyankub/traefik-forward-auth
 
 go 1.24.0
 
 require (
 	github.com/coreos/go-oidc v2.2.1+incompatible
-	github.com/jordemort/traefik-forward-auth v0.0.0-20230113005501-d793555249cd
 	github.com/sirupsen/logrus v1.9.3
 	github.com/stretchr/testify v1.10.0
 	github.com/thomseddon/go-flags v1.4.1-0.20190507184247-a3629c504486
@@ -14,7 +13,6 @@ require (
 )
 
 require (
-	github.com/Jeffail/gabs/v2 v2.6.1 // indirect
 	github.com/containous/alice v0.0.0-20181107144136-d83ebdd94cbd // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/gorilla/context v1.1.1 // indirect
